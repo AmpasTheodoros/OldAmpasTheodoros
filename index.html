@@ -64,7 +64,7 @@
             </div>
             <div class="project-card">
               <img class="project-image" src="src/images/projectInstagram.jpg" alt="Project One Image"/>
-              <h3>Instagram</h3>
+              <h3>Instagram Clone</h3>
               <p class="subtext">This is an Instagram Clone. I enjoyed making this project.</p>
               <hr/>
               <p class="subtext"><a class="project-link" href="https://www.github.com/AmpasTheodoros">View here</a></p>
@@ -87,6 +87,33 @@
     </section>
     <footer id="contact-me">
         <h2>Contact me</h2>
+        <div class="container">
+            <form action="https://formspree.io/f/mdoyvrrv" method="POST" id="my-form">
+                <div class="form-group">
+                    <label for="firstName"> First Name</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName"> Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message"> Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+                
+            </form>
+        </div>
+        <div id="status"></div>
         <p>ampastheodwros@gmail.com</p>
     </footer>
   <script src="src/app.js"></script>
