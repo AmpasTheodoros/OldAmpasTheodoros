@@ -58,6 +58,11 @@ p {
     font-weight: 300;
 }
 
+.subtext2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
 .hero-area {
     display: flex;
     height: 100%;
@@ -159,7 +164,7 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: #ef744b;
+    color: rgb(22, 138, 233);
 }
 
 a {
